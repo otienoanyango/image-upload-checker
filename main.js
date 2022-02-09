@@ -18,11 +18,11 @@ $(document).ready(function () {
                 $("#image_size").html(`Size: ${size} KB`);
                 if (this.width < 500 || this.height < 500) {
                     $("#image_dims").addClass("text-danger");
-                    $("#image_size").removeClass("text-success");
+                    $("#image_dims").removeClass("text-success");
 
                 } else {
                     $("#image_dims").addClass("text-success");
-                    $("#image_size").removeClass("text-danger");
+                    $("#image_dims").removeClass("text-danger");
                 }
                 $("#image_dims").show()
                 $("#image_size").show()

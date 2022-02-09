@@ -24,9 +24,10 @@ div.centered {
 }
 
 .text-danger {
-    color: #ff0000;
+    border: solid 2px #ff0000;
 }
 
 .text-success {
-    color: #00ff00;
+    border: solid 2px #00ff00;
+
 }
