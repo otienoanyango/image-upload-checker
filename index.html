@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image size checker</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="centered">
+        <h1>Check image size for Upload</h1>
+        <div>
+            <input type="file" id="image" accept="image/*" />
+            <!-- <input type="button" id="upload" value="Upload" /> -->
+        </div>
+        <div id="image_dims" class="message"></div>
+        <div id="image_size" class="message"></div>
+        <img id="uploadedImage" src="#" alt="Uploaded image" />
+    </div>
+
+</body>
+
+</html>
